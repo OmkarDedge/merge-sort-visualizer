@@ -1,0 +1,22 @@
+.array-container {
+  display: flex;
+  align-items: flex-end; /* Align bars to the bottom of the container */
+  justify-content: center;
+  margin: auto;
+  height: 80vh; /* Adjust the height as needed */
+  width: 100%;
+  position: relative;
+  padding-top: 100px; /* Add padding to push bars down */
+}
+
+.array-bar {
+  width: 2px;
+  margin: 0 1px;
+  background-color: turquoise;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
